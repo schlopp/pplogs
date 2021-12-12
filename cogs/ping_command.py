@@ -1,8 +1,7 @@
-from discord.ext import commands, vbu
+from discord.ext import commands, vbu  # type: ignore
 
 
 class PingCommand(vbu.Cog):
-
     @commands.command()
     async def ping(self, ctx: vbu.Context):
         """
